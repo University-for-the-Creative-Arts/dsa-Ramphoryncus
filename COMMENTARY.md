@@ -24,3 +24,9 @@ readability and immersion, mimicking a typewriter-like delay that fits the slow,
 
 Overall, this project demonstrates how data structures can serve storytelling: the graph doesn’t just hold the story’s logic — it mirrors its theme of
 cosmic connectivity and branching consciousness, transforming a simple console game into an interactive meditation on first contact.
+
+
+
+
+https://github.com/user-attachments/assets/47c15b01-854b-4160-92b9-591dbd5e4a84
+
