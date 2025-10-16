@@ -7,7 +7,7 @@ to diverge and reconverge, something that would be more restrictive in a simple 
 and recursion — where outcomes can loop back or feed into shared endpoints. Nodes are stored in a ```std::map<int, StoryNode>``` for ordered retrieval and
 straightforward ID lookups, balancing simplicity and clarity.
 
-Player decisions are stored implicitly through traversal and explicitly in a ```std::vector<int>``` history, which records the sequence of node IDs visited.
+Player decisions are stored implicitly through traversal and explicitly in a ```std::vector<int> history```, which records the sequence of node IDs visited.
 This allows for a potential post-game “path summary,” showing the journey taken. Player input is handled through a simple validation function (```readMenuChoice()```),
 which ensures only valid numeric inputs are accepted. This makes the program resilient to invalid input while keeping it accessible in a text-only compiler
 environment like OnlineGDB.
